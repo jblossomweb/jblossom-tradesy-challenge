@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.MuiContainer-root {
+  /* asdf */
+}
+
+.MuiCard-root {
+  margin: 14px;
+}
+
+.MuiBox-root {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+  .MuiCard-root {
+    width: calc(100vw - 108px);
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .MuiCard-root {
+    width: calc(49vw - 82px);
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .MuiCard-root {
+    width: calc(33vw - 64px);
+  }
+}
